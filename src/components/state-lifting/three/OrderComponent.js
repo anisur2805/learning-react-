@@ -20,6 +20,7 @@ export default class OrderComponent extends Component {
   
   productNameHandler = (e) => {
     this.setState({ productName: e.target.value }); 
+	console.log(e.target.value)
   };
 
   render() {
@@ -42,6 +43,8 @@ export default class OrderComponent extends Component {
          <SummaryComponent
           quantity={quantity}
           address={address}
+		  productName={productName}
+		  productNameHandler={this.productNameHandler}
           onQuantityChange={this.orderInfoChanged}></SummaryComponent>
       </div>
     );
