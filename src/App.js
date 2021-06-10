@@ -8,7 +8,7 @@ import Text from "./components/inheritence/Text";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App parent_component">
       {/* Temperature Converter - State Lifting 1 */}
       {/* <Calculator /> */}
 
