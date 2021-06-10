@@ -20,8 +20,6 @@ function SplitPane({ left, right }) {
 
 export default function UseSplitPane() {
 	return (
-		<>
-			<SplitPane left={ <Contact /> } right={ <MainContent /> } />
-		</>
+		<SplitPane left={ <Contact /> } right={ <MainContent /> } />
 	)
 }
