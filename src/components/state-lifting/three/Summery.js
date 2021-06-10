@@ -2,9 +2,9 @@ import React, { Component } from "react";
 
 export default class Summery extends Component {
   render() {
-    const { quantity, address, productName } = this.props; 
-    // const { quantity, productName } = this.props; 
-	console.log( "Product Name: " + productName )
+    const { quantity, address, productName } = this.props;
+    // const { quantity, productName } = this.props;
+    console.log("Product Name: " + productName);
     return (
       <div style={{ border: "3px solid red" }}>
         <h2>Summary...</h2>
