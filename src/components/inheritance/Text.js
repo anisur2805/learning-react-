@@ -4,9 +4,9 @@ export default class Text extends Emoji {
   constructor(props) {
     super(props);
   }
-  
-  render(){
-	  const decoratedText = this.addEmoji("I love JS", '💜');
-	  return super.render(decoratedText)
+
+  render() {
+    const decoratedText = this.addEmoji("I love JS", "💜");
+    return super.render(decoratedText);
   }
 }

@@ -1,6 +1,9 @@
 import "./App.css";
-import UseSplitPane from "./components/inheritence/test";
-import Text from "./components/inheritence/Text";
+// import UseSplitPane from "./components/inheritance/test";
+import TextInheritance from "./components/inheritance/Text";
+import EmojiComposition from "./components/composition/Emoji";
+import TextComposition from "./components/composition/TextComposition";
+// import AccessingElement from "./components/AccessingElement";
 // import OrderComponent from "./components/state-lifting/three/OrderComponent";
 // import Calculator from "./components/boil/Calculator";
 // import StateLifting from "./components/state-lifting/one"
@@ -21,10 +24,19 @@ function App() {
       {/* e-commerce */}
       {/* <OrderComponent /> */}
 
-      {/* Inheritance Component */}
-      <Text />
+      {/* Inheritance Component - part 1 */}
+      <TextInheritance />
 
-      <UseSplitPane />
+      {/* Composition Component - part 2 */}
+      <EmojiComposition> {({ 
+		  addEmoji }) => <TextComposition addEmoji={addEmoji} />
+		 }</EmojiComposition>
+
+      {/* This is an composition example.  */}
+      {/* <UseSplitPane /> */}
+
+      {/* Testing useRef */}
+      {/* <AccessingElement /> */}
     </div>
   );
 }
