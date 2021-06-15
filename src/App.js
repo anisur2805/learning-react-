@@ -1,4 +1,6 @@
 import "./App.css";
+import ClickCounter from "./components/HOC/ClickCounter";
+import HoverCounter from "./components/HOC/HoverCouner";
 // import UseSplitPane from "./components/inheritance/test";
 // import TextInheritance from "./components/inheritance/Text";
 // import EmojiComposition from "./components/composition/Emoji";
@@ -37,6 +39,9 @@ function App() {
 
       {/* Testing useRef */}
       {/* <AccessingElement /> */}
+
+      <ClickCounter />
+      <HoverCounter />
     </div>
   );
 }
