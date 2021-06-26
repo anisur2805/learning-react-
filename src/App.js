@@ -1,6 +1,10 @@
 import "./App.css";
-import ClickCounter from "./components/HOC/ClickCounter";
-import HoverCounter from "./components/HOC/HoverCouner";
+
+// import ClickCounter from "./components/HOC/1/ClickCounter";
+// import HoverCounter from "./components/HOC/1/HoverCounter";
+
+import ProductsListWithSearch from "./components/HOC/3/productCard";
+
 // import UseSplitPane from "./components/inheritance/test";
 // import TextInheritance from "./components/inheritance/Text";
 // import EmojiComposition from "./components/composition/Emoji";
@@ -40,10 +44,18 @@ function App() {
       {/* Testing useRef */}
       {/* <AccessingElement /> */}
 
-      <ClickCounter />
-      <HoverCounter />
+      {/* HOC - 1 */}
+      {/* <ClickCounter />
+      <HoverCounter /> */}
+
+      {/* HOC - 3 */}
+      <br />
+      <ProductsListWithSearch />
     </div>
   );
 }
+
+// eslint-disable-next-line no-func-assign
+// App = HOC(App);
 
 export default App;
