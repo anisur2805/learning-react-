@@ -2,6 +2,7 @@ import "./App.css";
 
 import UseRef from "./components/hooks/useRef";
 import UseRef2 from "./components/hooks/useRef2";
+import MemoComponent from './components/hooks/useMemo'
 
 // import ClickCounter from "./components/HOC/1/ClickCounter";
 // import HoverCounter from "./components/HOC/1/HoverCounter";
@@ -55,10 +56,15 @@ function App() {
       {/* <br />
       <ProductsListWithSearch /> */}
 
-      <h2>Hello</h2>
+      {/* <h2>Hello</h2> */}
 	  
-	  <UseRef />
-	  <UseRef2 />
+	  {/* UseRef Example */}
+	  {/* <UseRef />
+	  <UseRef2 /> */}
+	  
+	  {/* UseMemo Example */}
+	  <MemoComponent />
+	  
     </div>
   );
 }
