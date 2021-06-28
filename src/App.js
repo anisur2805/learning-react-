@@ -7,7 +7,8 @@ import "./App.css";
 // import ContextComponent from "./components/hooks/useContext";
 // import UseReducerComponent from "./components/hooks/UseReducer";
 // import UseReducerComponent2 from "./components/hooks/UseReducer2";
-import CustomStateHook from "./components/hooks/useCounter";
+// import CustomStateHook from "./components/hooks/useCounter/useHook1";
+import CustomStateHook from "./components/hooks/useCounter/useHook2";
 
 // import ClickCounter from "./components/HOC/1/ClickCounter";
 // import HoverCounter from "./components/HOC/1/HoverCounter";
