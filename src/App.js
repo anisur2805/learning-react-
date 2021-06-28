@@ -4,7 +4,8 @@ import "./App.css";
 // import UseRef2 from "./components/hooks/useRef2";
 // import MemoComponent from './components/hooks/useMemo'
 
-import CallbackComponent from './components/hooks/useCallback'
+// import CallbackComponent from "./components/hooks/useCallback";
+import ContextComponent from "./components/hooks/useContext";
 
 // import ClickCounter from "./components/HOC/1/ClickCounter";
 // import HoverCounter from "./components/HOC/1/HoverCounter";
@@ -59,20 +60,21 @@ function App() {
       <ProductsListWithSearch /> */}
 
       {/* <h2>Hello</h2> */}
-	  
-	  {/* UseRef Example */}
-	  {/* <UseRef />
+
+      {/* UseRef Example */}
+      {/* <UseRef />
 	  <UseRef2 /> */}
-	  
-	  {/* UseMemo Example */}
-	  {/* <MemoComponent /> */}
-	  
-	  {/* UseCallback Exm */}
-	  <CallbackComponent />
-	  
+
+      {/* UseMemo Example */}
+      {/* <MemoComponent /> */}
+
+      {/* UseCallback Exm */}
+      {/* <CallbackComponent /> */}
+
+      {/* UseContext */}
+      <ContextComponent />
     </div>
   );
 }
- 
 
 export default App;

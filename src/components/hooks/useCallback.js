@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect, useCallback } from "react";
 
-export default function MemoComponent() {
+export default function CallbackComponent() {
   const [counter, setCounter] = useState(1);
   const result = useMemo(() => {
     return factorial(counter);
