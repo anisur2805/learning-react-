@@ -5,7 +5,8 @@ import "./App.css";
 // import MemoComponent from './components/hooks/useMemo'
 // import CallbackComponent from "./components/hooks/useCallback";
 // import ContextComponent from "./components/hooks/useContext";
-import UseReducerComponent from "./components/hooks/UseReducer";
+// import UseReducerComponent from "./components/hooks/UseReducer";
+import UseReducerComponent2 from "./components/hooks/UseReducer2";
 
 // import ClickCounter from "./components/HOC/1/ClickCounter";
 // import HoverCounter from "./components/HOC/1/HoverCounter";
@@ -75,7 +76,8 @@ function App() {
       {/* <ContextComponent /> */}
 
       {/* USe Reducer */}
-      <UseReducerComponent />
+      {/* <UseReducerComponent /> */}
+      <UseReducerComponent2 />
     </div>
   );
 }
