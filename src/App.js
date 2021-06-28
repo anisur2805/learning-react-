@@ -3,9 +3,9 @@ import "./App.css";
 // import UseRef from "./components/hooks/useRef";
 // import UseRef2 from "./components/hooks/useRef2";
 // import MemoComponent from './components/hooks/useMemo'
-
 // import CallbackComponent from "./components/hooks/useCallback";
-import ContextComponent from "./components/hooks/useContext";
+// import ContextComponent from "./components/hooks/useContext";
+import UseReducerComponent from "./components/hooks/UseReducer";
 
 // import ClickCounter from "./components/HOC/1/ClickCounter";
 // import HoverCounter from "./components/HOC/1/HoverCounter";
@@ -72,7 +72,10 @@ function App() {
       {/* <CallbackComponent /> */}
 
       {/* UseContext */}
-      <ContextComponent />
+      {/* <ContextComponent /> */}
+
+      {/* USe Reducer */}
+      <UseReducerComponent />
     </div>
   );
 }
