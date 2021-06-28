@@ -1,8 +1,10 @@
 import "./App.css";
 
-import UseRef from "./components/hooks/useRef";
-import UseRef2 from "./components/hooks/useRef2";
-import MemoComponent from './components/hooks/useMemo'
+// import UseRef from "./components/hooks/useRef";
+// import UseRef2 from "./components/hooks/useRef2";
+// import MemoComponent from './components/hooks/useMemo'
+
+import CallbackComponent from './components/hooks/useCallback'
 
 // import ClickCounter from "./components/HOC/1/ClickCounter";
 // import HoverCounter from "./components/HOC/1/HoverCounter";
@@ -63,7 +65,10 @@ function App() {
 	  <UseRef2 /> */}
 	  
 	  {/* UseMemo Example */}
-	  <MemoComponent />
+	  {/* <MemoComponent /> */}
+	  
+	  {/* UseCallback Exm */}
+	  <CallbackComponent />
 	  
     </div>
   );
