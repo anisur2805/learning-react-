@@ -1,29 +1,36 @@
+/* eslint-disable no-unused-vars */
 import "./App.css";
 
-// import UseRef from "./components/hooks/useRef";
-// import UseRef2 from "./components/hooks/useRef2";
-// import MemoComponent from './components/hooks/useMemo'
-// import CallbackComponent from "./components/hooks/useCallback";
-// import ContextComponent from "./components/hooks/useContext";
-// import UseReducerComponent from "./components/hooks/UseReducer";
-// import UseReducerComponent2 from "./components/hooks/UseReducer2";
-// import CustomStateHook from "./components/hooks/useCounter/useHook1";
-import CustomStateHook from "./components/hooks/useCounter/useHook2";
+// HOC
+import ClickCounter from "./components/HOC/1/ClickCounter";
+import HoverCounter from "./components/HOC/1/HoverCounter";
+import ProductsListWithSearch from "./components/HOC/3/productCard";
 
-// import ClickCounter from "./components/HOC/1/ClickCounter";
-// import HoverCounter from "./components/HOC/1/HoverCounter";
+import UseSplitPane from "./components/inheritance/test";
+import TextInheritance from "./components/inheritance/Text";
+import EmojiComposition from "./components/composition/Emoji";
+import TextComposition from "./components/composition/TextComposition";
+import AccessingElement from "./components/AccessingElement";
+import OrderComponent from "./components/state-lifting/three/OrderComponent";
+import Calculator from "./components/boil/Calculator";
+import StateLifting from "./components/state-lifting/one"
+import A from "./components/state-lifting/two/A";
 
-// import ProductsListWithSearch from "./components/HOC/3/productCard";
+// Hooks
+import UseRef from "./components/hooks/useRef";
+import UseRef2 from "./components/hooks/useRef2";
+import MemoComponent from './components/hooks/useMemo'
+import CallbackComponent from "./components/hooks/useCallback";
+import ContextComponent from "./components/hooks/useContext";
+import UseReducerComponent from "./components/hooks/UseReducer";
+import UseReducerComponent2 from "./components/hooks/UseReducer2";
+import CustomStateHook from "./components/hooks/useCounter/useHook1";
+import CustomStateHook2 from "./components/hooks/useCounter/useHook2";
 
-// import UseSplitPane from "./components/inheritance/test";
-// import TextInheritance from "./components/inheritance/Text";
-// import EmojiComposition from "./components/composition/Emoji";
-// import TextComposition from "./components/composition/TextComposition";
-// import AccessingElement from "./components/AccessingElement";
-// import OrderComponent from "./components/state-lifting/three/OrderComponent";
-// import Calculator from "./components/boil/Calculator";
-// import StateLifting from "./components/state-lifting/one"
-// import A from "./components/state-lifting/two/A";
+import CopyComponent from "./components/Copy.jsx";
+
+// Custom Form Hook
+import SignUp from "./components/hooks/CustomHook/Signup";
 
 function App() {
   return (
@@ -81,7 +88,13 @@ function App() {
       {/* <UseReducerComponent /> */}
       {/* <UseReducerComponent2 /> */}
 
-      <CustomStateHook />
+      {/* <CustomStateHook />
+      {/* <CustomStateHook2 />
+	  <useCustomForm /> */}
+
+      {/* <CopyComponent /> */}
+
+      <SignUp />
     </div>
   );
 }
