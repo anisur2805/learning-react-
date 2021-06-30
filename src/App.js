@@ -31,6 +31,7 @@ import CopyComponent from "./components/Copy.jsx";
 
 // Custom Form Hook
 import SignUp from "./components/hooks/CustomHook/Signup";
+import FormComponent from "./components/hooks/CustomHook2/Form"
 
 function App() {
   return (
@@ -94,7 +95,9 @@ function App() {
 
       {/* <CopyComponent /> */}
 
-      <SignUp />
+      {/* <SignUp /> */}
+	  
+	  <FormComponent />
     </div>
   );
 }
