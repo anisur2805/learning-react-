@@ -4,15 +4,16 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import ContextAPI from "./ContextAPI";
+import Part2 from "./Part2";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
     {/* <ContextAPI /> */}
+    <Part2 />
   </React.StrictMode>,
   document.getElementById("root")
 );
