@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import useCustomHook from "./useCustomHook";
 import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";

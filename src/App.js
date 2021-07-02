@@ -98,6 +98,8 @@ function App() {
       {/* <SignUp /> */}
 	  
 	  <FormComponent />
+	  
+	  <h2>Hello world</h2>
     </div>
   );
 }
