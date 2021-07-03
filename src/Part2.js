@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import FetchUseEffect from "./components/fetching/useEffect";
 import UseEffectFetchSinglePost from "./components/fetching/useEffect-fetch-single-post";
+import UseEffectFetchSinglePostButton from "./components/fetching/useEffect-fetch-single-post-button";
 import { ArrayUseState } from "./components/part2/Immutable State/ArrayUseState";
 import { ObjectUseState } from "./components/part2/Immutable State/ObjectUseState";
 import ReactTestify from "./components/part2/react-testify";
@@ -27,7 +28,8 @@ export default function Part2() {
           {/* <FetchUseEffect /> */}
 
           {/* Fetch single data */}
-          <UseEffectFetchSinglePost />
+          {/* <UseEffectFetchSinglePost /> */}
+		  <UseEffectFetchSinglePostButton />
         </div>
       </div>
     </div>
