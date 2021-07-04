@@ -12,6 +12,7 @@ import { ObjectUseState } from "./components/part2/Immutable State/ObjectUseStat
 import ReactTestify from "./components/part2/react-testify";
 import { UseStateComponent } from "./components/part2/UseState/UseState";
 import UseStateTow from "./components/part2/UseState/UseStateTwo";
+import UseReducerNewFour from "./components/part2/UseReducerNewFour";
 
 export default function Part2() {
   return (
@@ -37,9 +38,9 @@ export default function Part2() {
           {/* <UseEffectFetchSinglePostButton /> */}
 
           {/* <UseReducerNew /> */}
-		  {/* <UseReducerNewTwo /> */}
-		  <UseReducerNewThree />
-		  
+          {/* <UseReducerNewTwo /> */}
+          {/* <UseReducerNewThree /> */}
+          <UseReducerNewFour />
         </div>
       </div>
     </div>
