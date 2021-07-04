@@ -5,6 +5,7 @@ import UseEffectFetchSinglePostButton from "./components/fetching/useEffect-fetc
 
 import UseReducerNew from "./components/part2/UseReducerNew";
 import UseReducerNewTwo from "./components/part2/UseReducerNewTwo";
+import UseReducerNewThree from "./components/part2/UseReducerNewThree";
 
 import { ArrayUseState } from "./components/part2/Immutable State/ArrayUseState";
 import { ObjectUseState } from "./components/part2/Immutable State/ObjectUseState";
@@ -36,7 +37,9 @@ export default function Part2() {
           {/* <UseEffectFetchSinglePostButton /> */}
 
           {/* <UseReducerNew /> */}
-		  <UseReducerNewTwo />
+		  {/* <UseReducerNewTwo /> */}
+		  <UseReducerNewThree />
+		  
         </div>
       </div>
     </div>
