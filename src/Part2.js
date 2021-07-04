@@ -13,6 +13,7 @@ import ReactTestify from "./components/part2/react-testify";
 import { UseStateComponent } from "./components/part2/UseState/UseState";
 import UseStateTow from "./components/part2/UseState/UseStateTwo";
 import UseReducerNewFour from "./components/part2/UseReducerNewFour";
+import UseReducerWithUseContext from "./components/part2/useReducerWihUseContext";
 
 export default function Part2() {
   return (
@@ -40,7 +41,9 @@ export default function Part2() {
           {/* <UseReducerNew /> */}
           {/* <UseReducerNewTwo /> */}
           {/* <UseReducerNewThree /> */}
-          <UseReducerNewFour />
+          {/* <UseReducerNewFour /> */}
+
+          <UseReducerWithUseContext />
         </div>
       </div>
     </div>
