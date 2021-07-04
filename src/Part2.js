@@ -2,6 +2,10 @@
 import FetchUseEffect from "./components/fetching/useEffect";
 import UseEffectFetchSinglePost from "./components/fetching/useEffect-fetch-single-post";
 import UseEffectFetchSinglePostButton from "./components/fetching/useEffect-fetch-single-post-button";
+
+import UseReducerNew from "./components/part2/UseReducerNew";
+import UseReducerNewTwo from "./components/part2/UseReducerNewTwo";
+
 import { ArrayUseState } from "./components/part2/Immutable State/ArrayUseState";
 import { ObjectUseState } from "./components/part2/Immutable State/ObjectUseState";
 import ReactTestify from "./components/part2/react-testify";
@@ -22,14 +26,17 @@ export default function Part2() {
       {/* <UseStateTow /> */}
 
       <div className="container my-4">
-        <div className="col-md-6 offset-md-3">
+        <div className="col-md-7 offset-md-3">
           {/* Fetch Data */}
           {/* Fetch all data */}
           {/* <FetchUseEffect /> */}
 
           {/* Fetch single data */}
           {/* <UseEffectFetchSinglePost /> */}
-		  <UseEffectFetchSinglePostButton />
+          {/* <UseEffectFetchSinglePostButton /> */}
+
+          {/* <UseReducerNew /> */}
+		  <UseReducerNewTwo />
         </div>
       </div>
     </div>
